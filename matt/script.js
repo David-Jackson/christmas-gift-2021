@@ -212,6 +212,7 @@
       var it;
       this.scroller = new IScroll('#js-main', {
         probeType: 3,
+        click: true,
         mouseWheel: true,
         deceleration: 0.001
       });
